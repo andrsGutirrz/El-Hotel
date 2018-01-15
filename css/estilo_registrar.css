@@ -1,0 +1,68 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.header{
+  background: #0669b2;
+  color: white;
+}
+
+.nav-pills{
+  margin-top: 10px;
+}
+
+.header sub{
+  font-size: 17px;
+  padding-left: 25px;
+  padding-top: 0;
+  margin-top: 0;
+}
+#titulo{
+  font-size: 75px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.menu a{
+  color: white;
+  font-size: 20px;
+}
+.apartado{
+  background-image: url('../images/dorm.png');
+  background-size:cover;
+  background-position: 50% 60%;
+  color: white;
+  padding: 78px;
+}
+.principal{
+  margin-top: 10px;
+  border: 1px solid #1F313c;
+  border-radius: 8px;
+}
+.principal label{
+  color: black;
+}
+.combo{
+  margin-bottom: 20px;
+}
+.footer{
+  background: #0669b2;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+}
+input[type=text],input[type=email] {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.combo,.combo select{
+  border: 1px solid black;
+  color: black;
+}
+option{
+  color: black;
+}
+.btn-info{
+  margin: 15px;
+  padding: 10px;
+}

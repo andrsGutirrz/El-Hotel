@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>El hotel | Registrar</title>
+    <meta name="viewport" content="width=device-width, user-sccalable=no, initial=1.0, minimum-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/icono.ico" />
+    <link rel="stylesheet" href="../css/estilo_registrar.css">
+  </head>
+  <body>
+    <header class="header container">
+      <h1 id="titulo">El hotel</h1>
+      <sub>Un lugar para descansar..</sub>
+      <nav class="menu"><!-- menu -->
+        <ul class="nav nav-pills nav-justified" id="menu">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a><!-- ancla -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registrar.html">Registrar</a><!-- ancla -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a><!-- ancla -->
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="apartado container">
+      <div>
+        <h2 class="container">Registrar Visitante</h2>
+      </div>
+    </section>
+    <section class="principal container">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="nombre" class="col-lg-2 control-label">Nombre</label>
+            <div class="col-lg-10">
+              <input class="form-control" type="text" required id="nombre" name="nombre" placeholder="nombre"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cedula" class="col-lg-2 control-label">Cedula</label>
+            <div class="col-lg-10">
+              <input class="form-control" type="text" required id="cedula" name="cedula" placeholder="cedula"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-control combo">
+            <label for="pago" class="col-lg-2 control-label" >Metodo de pago</label>
+            <div class="col-lg-10">
+              <select class="form-control">
+                <option value="1">Tarjeta</option>
+                <option value="2">Efectivo</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-control combo">
+            <label for="habitacion" class="col-lg-2 control-label" >Numero Habitacion</label>
+            <div class="col-lg-10">
+              <select class="form-control">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-control combo">
+            <label for="fecha" class="col-lg-2 control-label">Fecha Entrada</label>
+            <div class="col-lg-10">
+              <input type="date" name="fecha">
+            </div>
+          </div>
+          <div class="form-control combo">
+            <label for="fecha" class="col-lg-2 control-label">Fecha Salida</label>
+            <div class="col-lg-10">
+              <input type="date" name="fecha">
+            </div>
+          </div>
+          <input type="submit" class="btn btn-info" value="Enviar"/>
+        </form>
+    </section>
+    <footer class="footer container">
+      <a href="tel:+50661688613"><strong>Telefono </strong><span>61688613</span></a>
+      <a href="mailto:andres.gutierrez.arcia@gmail.com"><strong>E-mail </strong><span>andres.gutierrez.arcia@gmail.com</span></a>
+    </footer>
+    <!--<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>-->
+  </body>
+</html>

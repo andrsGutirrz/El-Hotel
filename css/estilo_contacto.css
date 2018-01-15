@@ -1,0 +1,36 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.header{
+  background: #0669b2;
+  color: white;
+}
+
+.nav-pills{
+  margin-top: 10px;
+}
+
+.header sub{
+  font-size: 17px;
+  padding-left: 25px;
+  padding-top: 0;
+  margin-top: 0;
+}
+#titulo{
+  font-size: 75px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.menu a{
+  color: white;
+  font-size: 20px;
+}
+.apartado{
+  background-image: url('../images/dorm.png');
+  background-size:cover;
+  background-position: 50% 60%;
+  color: white;
+  padding: 78px;
+}
